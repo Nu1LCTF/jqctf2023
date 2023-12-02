@@ -10,7 +10,7 @@
 
 3. 连接数据库获得前半段flag和一个提示（要检查根目录）
 
-4. 利用file_output_contents上传一个so，再用fsockopen链接到fpm，加载上传的so完成RCE
+4. 利用file_put_contents上传一个so，再用fsockopen链接到fpm，加载上传的so完成RCE
 
 ## 坑点
 
